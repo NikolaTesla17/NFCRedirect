@@ -5,14 +5,14 @@ body {
 }
 
 h1 {
-  margin: 3vw;
+  margin: 3vw auto;
   padding-top: 3vw;
   padding-bottom: 3vw;
   text-align: center;
   background-color: #FEE12B;
   color: #7E7F9A;
   border: 3px solid green;
-  font-size: 9.5vh;
+  font-size: 8.5vh;
   border-radius: 2vw;
   background-position: center;
   background-repeat: no-repeat;
