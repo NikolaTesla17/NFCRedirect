@@ -6,7 +6,8 @@ body {
 
 h1 {
   margin: 3vw;
-  padding: 3vw;
+  padding-top: 3vw;
+  padding-bottom: 3vw;
   text-align: center;
   background-color: #FEE12B;
   color: #7E7F9A;
