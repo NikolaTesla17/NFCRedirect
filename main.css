@@ -1,4 +1,5 @@
-/* colors: FFFFFA   0D5C63   44A1A0   78CDD7   247B7B */
+/* colors: FFFFFA   0D5C63   44A1A0   78CDD7   247B7B figure out how to get phone alone to work, then make ok for desktop, 
+but given format, defenitly secondary, use nayansmuek.com for that*/
 
 body {
   background-color: #CAE7B9;
@@ -12,7 +13,7 @@ h1 {
   background-color: #FEE12B;
   color: #7E7F9A;
   border: 3px solid green;
-  font-size: 8.5vh;
+  font-size: 8vh;
   border-radius: 2vw;
   background-position: center;
   background-repeat: no-repeat;
