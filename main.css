@@ -1,0 +1,19 @@
+/* colors: FFFFFA   0D5C63   44A1A0   78CDD7   247B7B */
+
+body {
+  background-color: #CAE7B9;
+}
+
+h1 {
+  margin: 3vw;
+  /* padding: 20px; */
+  text-align: center;
+  background-color: #FEE12B;
+  color: #7E7F9A;
+  border: 3px solid green;
+  font-size: 14vw;
+  border-radius: 2vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
