@@ -3,6 +3,7 @@ but given format, defenitly secondary, use nayansmuek.com for that*/
 
 body {
   background-color: #CAE7B9;
+  font-family: Verdana, sans-serif;
 }
 
 h1 {
@@ -16,7 +17,6 @@ h1 {
   font-size: 8vh;
   border-radius: 2vw;
   background-position: center;
-  background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;
 
@@ -29,3 +29,13 @@ a:visited {
     color:  #7E7F9A;
     text-decoration: none;
 }
+
+/* @media screen and (orientation:portrait) {}
+@media screen and (orientation:landscape) {
+  h1 {
+    font-size: 8vw;
+  }
+  body {
+    background-color: red;
+  }
+} */
