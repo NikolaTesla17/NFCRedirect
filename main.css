@@ -2,7 +2,7 @@
 but given format, defenitly secondary, use nayansmuek.com for that*/
 
 body {
-  background-color: #CAE7B9;
+  background-color: #e0aaff;
   font-family: Verdana, sans-serif;
 }
 
@@ -11,9 +11,9 @@ h1 {
   padding-top: 3vw;
   padding-bottom: 3vw;
   text-align: center;
-  background-color: #FEE12B;
-  color: #7E7F9A;
-  border: 3px solid green;
+  background-color: #9d4edd;
+  color: #10002b;
+  border: 3px solid #3c096c;
   font-size: 8vh;
   border-radius: 2vw;
   background-position: center;
@@ -22,11 +22,11 @@ h1 {
 
 }
 a:link {
-    color:  #7E7F9A;
+    color:  #10002b;
     text-decoration: none;
 }
 a:visited {
-    color:  #7E7F9A;
+    color:  #10002b;
     text-decoration: none;
 }
 
