@@ -1,0 +1,19 @@
+BEGIN:VCARD
+VERSION:3.0
+FN:Nayan Smuek
+N:Smuek;Nayan;;;
+X-PHONETIC-FIRST-NAME:n-EYE-ˈɛn
+EMAIL;TYPE=INTERNET;TYPE=WORK:nayan@smuek.dev
+EMAIL;TYPE=INTERNET;TYPE=HOME:challengernayan@gmail.com
+TEL;TYPE=CELL:(650) 400-6987
+item1.ADR:;;510 La Mesa Court;Portola Valley;;94028;US;510 La Mesa Court\nP
+ ortola Valley\, 94028\nUS
+item1.X-ABLabel:
+BDAY:20040117
+item2.URL:nayansmuek.com
+item2.X-ABLabel:
+NOTE:They/Them
+PHOTO:https://lh3.googleusercontent.com/contacts/AKUYANR6Y8i8Ls4APlxCepDylN
+ 4BqZN9kM9QdQdQTZ_Q3GKBtpcauRSi
+CATEGORIES:myContacts
+END:VCARD
