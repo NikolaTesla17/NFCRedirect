@@ -39,28 +39,43 @@ h2 {
   margin-bottom: 0;
 }
 
-img {
+/* img {
   margin: 3vw auto;
   border: 3px solid #0F292F;
   font-size: 8vh;
   border-radius: 2vw;
   overflow: hidden;
   width: 90%;
-  /* height: 45vw; */
- }
+  /* height: 45vw;
+ } */
 
 .swiper {
-  width: 100%;
+  width: 93%;
   height:35%;
   /* height: 300px; */
+  margin: 3vw auto;
+  border: 3px solid #0F292F;
+  font-size: 4vh;
+  border-radius: 2vw;
+  overflow: hidden;
+  color: white;
+  text-align: center;
+  -webkit-text-stroke: 3px black;
+  font-weight: bold;
+
 }
 
-.swiper-slide img {
+.swiper-text{
+  padding-top: 50%;
+  /* bottom:0; */
+}
+
+/* .swiper-slide img {
   display: block;
   width: 95%;
   /* height: 30vh; */
-  object-fit: cover;
-}
+  /* object-fit: cover;
+} */
 
 .swiper-button-prev{
   margin-left:2vh;
