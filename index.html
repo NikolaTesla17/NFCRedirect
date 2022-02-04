@@ -1,40 +1,44 @@
 <head>
-    <link rel="icon" href="images/favicon.ico">
-    <link rel="stylesheet" href="main.css">
-    <title>Nayan Smuek</title>
-    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
-    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+  <title>Nayan Smuek</title>
+  <link rel="icon" href="images/favicon.ico">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/swiper-bundle.min.css">
+  <script src="js/swiper-bundle.min.js"></script>
 </head>
-<h2>Recent Projects</h2>
 
+<body>
+  <h2>Recent Projects</h2>
 
-<div class="swiper mySwiper">
-  <div class="swiper-wrapper">
-    <div class="swiper-slide" style="background-image: url(images/bike.jpg);  background-size: cover;"><div class="swiper-text">Terrifying Electric Bike</div></div>
-    <div class="swiper-slide" style="background-image: url(images/BuisnessCards.jpg);  background-size: cover;"><div class="swiper-text">ESP8266 Buisness Cards</div></div>
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide" style="background-image: url(images/bike.jpg);  background-size: cover;">
+        <div class="swiper-text">Terrifying Electric Bike</div>
+      </div>
+      <div class="swiper-slide" style="background-image: url(images/BuisnessCards.jpg);  background-size: cover;">
+        <div class="swiper-text">ESP8266 Buisness Cards</div>
+      </div>
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
   </div>
-  <div class="swiper-button-next"></div>
-  <div class="swiper-button-prev"></div>
-</div>
 
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
 
-
-<script>
-  var swiper = new Swiper(".mySwiper", {
-    navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
-    },
-  });
-</script>
-
-
-
-
-
-
-
-
-
-<a href="files/contacts.vcf" download><h1>Download Contact</h1></a>
-<a href="https://nayansmuek.com"><h1>Website</h1></a>
+  <a id="contactLink" href="contacts/contacts.vcf" download>
+    <h1>Download Contact</h1>
+  </a>
+  <a href="https://nayansmuek.com">
+    <h1>Website</h1>
+  </a>
+  <a href="https://www.instagram.com/nayanaple">
+    <h1>Instagram</h1>
+  </a>
+  <script src="js/contactReplace.js"></script>
+</body>
