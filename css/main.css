@@ -1,19 +1,13 @@
-/* colors: FFFFFA   0D5C63   44A1A0   78CDD7   247B7B figure out how to get phone alone to work, then make ok for desktop, 
-but given format, defenitly secondary, use nayansmuek.com for that*/
-
 body {
   background-color: #282828;
   font-family: Verdana, sans-serif;
 }
 
 h1 {
-  /* -webkit-text-stroke: 2px black; */
-
   margin: 3vw auto;
   padding-top: 3vw;
   padding-bottom: 3vw;
   text-align: center;
-  /*background-image: linear-gradient(to bottom right, #CB2D6F, #501F3A);*/
   background-color: #282828;
   color: #cccccc;
   border: 4px solid #8860D0;
@@ -24,6 +18,7 @@ h1 {
   overflow: hidden;
   width: 94%;
 }
+
 a:link {
     color:  #cccccc;
     text-decoration: none;
@@ -32,7 +27,6 @@ a:visited {
     color:  #cccccc;
     text-decoration: none;
 }
-
 
 h2 {
   font-size: 3vh;
@@ -45,7 +39,6 @@ h2 {
 .swiper {
   width: 93%;
   height:35%;
-  /* height: 300px; */
   margin: 3vw auto;
   border: 4px solid #8860D0;
   font-size: 4vh;
@@ -53,13 +46,10 @@ h2 {
   overflow: hidden;
   color: white;
   text-align: center;
-  /* -webkit-text-stroke: 2px black; */
   font-weight: bold;
-
 }
 
 .swiper-text{
-  /* padding-top: 58%; */
   position: absolute;
   font-size: 6vw;
   color: #cccccc;
@@ -69,30 +59,9 @@ h2 {
   text-align: center;
 }
 
-/* .swiper-slide img {
-  display: block;
-  width: 95%;
-  /* height: 30vh; */
-  /* object-fit: cover;
-} */
-
 .swiper-button-prev{
   margin-left:2vh;
 }
 .swiper-button-next{
   margin-right:2vh;
 }
-
-
-
-
-
-/* @media screen and (orientation:portrait) {}
-@media screen and (orientation:landscape) {
-  h1 {
-    font-size: 8vw;
-  }
-  body {
-    background-color: red;
-  }
-} */
