@@ -1,15 +1,41 @@
 <head>
     <link rel="icon" href="images/favicon.ico">
     <link rel="stylesheet" href="main.css">
-    <script src="slideshow.js"></script>
     <title>Nayan Smuek</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
 </head>
-<h2>Recent Projects<h2>
-<!-- <a href="files/contacts.vcf" download><h1 style="background-image: url(images/contactsBackground.jpg);">Download My Contact</h1></a>
-<a href="https://nayansmuek.com"><h1 style="background-image: url(images/header.jpg);">My Website</h1></a> -->
+<h2>Recent Projects</h2>
 
 
-<img src="images/header.jpg" alt="Website">
+<div class="swiper mySwiper">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide"><img src="images/header.jpg" alt="Website"></div>
+    <div class="swiper-slide">Slide 2</div>
+    <div class="swiper-slide">Slide 3</div>
+    <div class="swiper-slide">Slide 4</div>
+  </div>
+  <div class="swiper-button-next"></div>
+  <div class="swiper-button-prev"></div>
+</div>
+
+
+
+<script>
+  var swiper = new Swiper(".mySwiper", {
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  });
+</script>
+
+
+
+
+
+
+
 
 
 <a href="files/contacts.vcf" download><h1>Download Contact</h1></a>
