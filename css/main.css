@@ -41,6 +41,13 @@ h2 {
   width: 94%;
 }
 
+h3 {
+  padding-top: 4vw;
+  color: #cccccc;
+  font-size: 2vh;
+  text-align: center;
+}
+
 .swiper {
   width: 93%;
   height:35%;
